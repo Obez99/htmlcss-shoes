@@ -5,12 +5,23 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+
 header{
-    height: 50px;
+    height: 80px;
+    background-color: red;
+}
+
+nav{
+    height:100%;
+    position:relative;
 }
 
 nav>ul{
     list-style: none;
+    margin-top: 20px;
+    position:absolute;
+    right:20px;
+    top:20px;
 }
 
 nav>ul li{
@@ -20,4 +31,8 @@ nav>ul li{
 nav>ul li a{
     text-decoration: none;
     color:black;
+    padding:10px 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
 }
